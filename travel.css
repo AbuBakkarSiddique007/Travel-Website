@@ -188,3 +188,41 @@ main {
     border-radius: 8px;
     cursor: pointer;
 }
+
+
+/* footer section */
+.footer-container {
+    background-color: #333;
+    /* Set your desired background color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 30px;
+    /* Adjust the size as needed */
+    height: 30px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    /* Adjust the size of icons */
+    margin-top: 10px;
+}
+
+.icon-container i {
+    margin: 0 10px;
+}
+
+hr {
+    border: 1px solid white;
+    margin: 20px 0;
+}
