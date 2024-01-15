@@ -60,3 +60,131 @@ body {
 .items-container a.home-color {
     color: #FF5400;
 }
+
+/* banner section */
+
+.banner {
+    max-width: 1250px;
+    margin: 50px auto 80px;
+    display: flex;
+}
+
+.banner-container {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/group\ 13\ \(1\)\ \(1\).png');
+
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.banner-container h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-container p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 676px;
+    color: white;
+    text-align: center;
+}
+
+.banner-form {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.where-go,
+.when,
+.type,
+.select-type,
+.find-now-button {
+    border: 0;
+    width: 174px;
+    height: 52px;
+
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.where-go,
+.when,
+.type,
+.select-type {
+    padding: 10px;
+}
+
+.banner .find-now-button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+
+}
+
+
+
+/* our popular tours style */
+main {
+    margin-top: 20px;
+
+}
+
+.our-tour {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+
+}
+
+.our-tour-left {
+    width: 60%;
+    padding: 20px;
+
+}
+
+.our-tour-right {
+    width: 40%;
+}
+
+.our-tour-right img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+
+
+}
+
+/* Styles for the button */
+.our-tour-left button {
+    background-color: #FF5400;
+    /* Adjust as needed */
+    color: #FFF;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
