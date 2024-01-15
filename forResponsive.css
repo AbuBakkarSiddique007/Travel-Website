@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    .header-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-container {
+        width: 100%;
+    }
+
+    .nav-container img {
+        margin-bottom: 10px;
+    }
+
+    .items-container {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 10px;
+        
+    }
+}
